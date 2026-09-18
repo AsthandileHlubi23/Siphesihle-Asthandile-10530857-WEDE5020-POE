@@ -10,7 +10,7 @@ An external CSS stylesheet is used by the website to produce a unified design on
 * Focus ,hover and active states
 * Grid layout in CSS
 * Images that are responsive
-* Using media queries in responsive design
+* Using media queries in responsive design.
   ### Changelog
   ## Part 1
   *The HTML pages were created.
