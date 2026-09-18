@@ -31,5 +31,8 @@ An external CSS stylesheet is used by the website to produce a unified design on
   *Mobile:320 x 480
   *Tablet:1024 x 768
   *Desktop:1366 x 768
-  As proof, screenshots of the various screen sizes are provided:
-  *Mobile View:*
+  
+  ## References
+   *MDN Web Docs, 2026. *CSS Grid Layout*.Available at: <https://mozilla.org> [Accessed 18 Sep.2026].
+  *MDN Web Docs, 2026. *Using Media Queries*.Available at: <https://mozilla.org> [Accessed 18 Sep.2026].
+
