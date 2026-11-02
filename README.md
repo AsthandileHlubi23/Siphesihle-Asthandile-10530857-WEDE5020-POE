@@ -39,6 +39,8 @@ An external CSS stylesheet is used by the website to produce a unified design on
   Part 3 changelog
 Enhancing functionality, interactivity, user experience, and search engine optimization (SEO) were the main goals of the third phase of website development.
 
+
+
 1. JavaScript Functionality
         •       JavaScript functionality was added to enhance the interactivity of the website.
         •       Product search and category tabs have been implemented.
