@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products - Hlubi's Green Harvest Farm</title>
+    <meta name="description" content="Explore our range of fresh agricultural products, including fruits, vegetables, maize, and eggs.">
+    <meta name="keywords" content="fresh produce, fruits, vegetables, maize, eggs, farm products">
      <link rel="stylesheet" href="style.css"> 
 </head>
 
@@ -21,23 +23,31 @@
         <a href="products.html">Products</a>
         <a href="gallery.html">Gallery</a>
         <a href="contact.html">Contact</a>
+        <a href="enquiry.html">Enquiries</a>
     </nav>
 <!--This is the main products section-->
     <main>
 
         <h2>Our Products</h2>
+        <input type="text" id="searchInput" placeholder="Search products..." onkeyup="filterProducts()">
 
         <p>
-            We offer a variety of fresh agricultural products
-            produced with care at Hlubi's Green Harvest Farm.
+            We offer a variety of fresh agricultural products, including fruits, vegetables, maize, and eggs. Browse through our selection below.
         </p>
 
+        <div class="tab-buttons">
+    <button class="tab-button" onclick="showTab('fruits')">Fruits</button>
+    <button class="tab-button" onclick="showTab('vegetables')">Vegetables</button>
+    <button class="tab-button" onclick="showTab('maize')">Maize</button>
+    <button class="tab-button" onclick="showTab('eggs')">Eggs</button>
+</div>
         <div class="product-container">
             <div class="product">
                 <img src="images/image5.jpeg"
                      alt="Fresh fruits from the farm"
                      width="300">
-                <p>Fresh Fruits</p>
+                <h3>Fresh Fruits</h3>
+                <p> We provide fresh and naturally grown fruits for our customers.</p>
                 <p>Price: R20 per kg</p>
             </div>
 
@@ -45,7 +55,8 @@
                 <img src="images/image4.jpeg"
                      alt="Fresh vegetables from the farm"
                      width="300">
-                <p>Fresh Vegetables</p>
+                <h3>Fresh Vegetables</h3>
+                <p> We provide fresh and naturally grown vegetables for our customers.</p>
                 <p>Price: R25 per kg</p>
             </div>
 
@@ -53,7 +64,8 @@
                 <img src="images/image3.jpeg"
                      alt="Maize from the farm"
                      width="300">
-                <p>Maize</p>
+                <h3>Maize</h3>
+                <p> We provide fresh and naturally grown maize for our customers.</p>
                 <p>Price: R15 per kg</p>
             </div>
 
@@ -61,46 +73,12 @@
                 <img src="images/image2.jpeg"
                      alt="Fresh eggs from the farm"
                      width="300">
-                <p>Fresh Eggs</p>
+                <h3>Fresh Eggs</h3>
+                <p> We provide fresh and naturally grown eggs for our customers.</p>
                 <p>Price: R30 per dozen</p>
-            </div>
-        <section>
+            </div> 
+        </div> <!--close product-container-->
 
-            <h3>Fresh Fruits</h3>
-            <p>
-                We provide fresh and naturally grown fruits
-                for our customers.
-            </p>
-
-        </section>
-
-        <section>
-
-            <h3>Fresh Vegetables</h3>
-            <p>
-                Our vegetables are fresh and suitable for
-                healthy everyday meals.
-            </p>
-
-        </section>
-
-        <section>
-
-            <h3>Maize</h3>
-            <p>
-                We provide quality farm-grown maize.
-            </p>
-
-        </section>
-
-        <section>
-
-            <h3>Fresh Eggs</h3>
-            <p>
-                Fresh eggs supplied from our farm.
-            </p>
-
-        </section>
 
     </main>
 
@@ -111,5 +89,6 @@
         <p>Copyright © 2026 Hlubi's Green Harvest Farm</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>

@@ -34,16 +34,20 @@ nav {
     background-color: #1b5e20;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 0.5rem;
     padding: 1rem;
 }
 
 nav a {
+    display: inline-block;
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 1rem;
+    text-align: center;
+    border-radius: 5px;
 }
 
 /* Navigation hover , focus, and active states */
@@ -80,7 +84,10 @@ h3 {
 }
 
 /* Images */
+/* Responsive images */
 img {
+    display: block;
+    width: 100%;
     max-width: 100%;
     height: auto; 
 }
@@ -102,7 +109,13 @@ footer {
 
     nav {
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
+        gap: 0.3rem;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
     }
 
     main {
@@ -124,6 +137,15 @@ footer {
     main {
         width: 92%;
     }
+
+    /*Tablet navigation */
+    nav {
+        gap: 0.5rem;
+        padding: 0.7rem;
+    }
+nav a {
+        padding: 0.5rem 0.7rem;
+    }
 }
 
 
@@ -139,4 +161,139 @@ footer {
     background-color: white;
     padding: 1.5rem;
     border-radius: 8px;
+}
+
+/* Gallery layout */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.gallery-container img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Mobile gallery */
+@media (max-width: 600px) {
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*Image Gallery Lightbox */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    
+}
+
+.lightbox img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+.close-lightbox {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Image Hover Animation */
+.gallery-container img,
+.product img {
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+
+.gallery-container img:hover,
+.product img:hover {
+    transform: scale(1.05);
+}
+
+/* Button Hover Animation */
+input[type="submit"] {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.05);
+}
+
+/* Mobile Navigation */
+@media screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        padding: 12px;
+    }
+}
+/* Resize farm logo */
+header img.logo {
+    width: 100px !important;
+    max-width: 100px !important;
+    height: auto !important;
+    display: block;
+    margin: 10px auto;
+}
+/* FAQ Accordion */
+.accordion {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.accordion:hover {
+    background-color: #388E3C;
+}
+
+.panel {
+    display: none;
+    padding: 10px 15px;
+    background-color: #f1f1f1;
+}
+/* Product Tabs */
+.tab-buttons {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.tab-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
