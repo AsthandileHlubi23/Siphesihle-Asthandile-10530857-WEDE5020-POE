@@ -52,3 +52,17 @@ Enhancing functionality, interactivity, user experience, and search engine optim
         •       Enhanced website navigation and mobile responsiveness.
         •       Tested the functionality and features of the website.
 
+   References
+
+Google Maps. n.d. Google Maps. Available at: https://www.google.com/maps [Accessed: 01 November 2026].
+
+MDN Web Docs. n.d. CSS transitions. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions [Accessed: 01 November 2026].
+
+MDN Web Docs. n.d. Document Object Model (DOM). Available at: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model [Accessed: 01 November 2026].
+
+MDN Web Docs. n.d. JavaScript. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript [Accessed: 02 November 2026].
+
+MDN Web Docs. n.d. HTML forms. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms [Accessed: 02 November 2026].
+
+Mozilla. n.d. CSS Grid Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout [Accessed: 02 November 2026].
+
