@@ -36,3 +36,19 @@ An external CSS stylesheet is used by the website to produce a unified design on
    *MDN Web Docs, 2026. *CSS Grid Layout*.Available at: <https://mozilla.org> [Accessed 18 Sep.2026].
   *MDN Web Docs, 2026. *Using Media Queries*.Available at: <https://mozilla.org> [Accessed 18 Sep.2026].
 
+  Part 3 changelog
+Enhancing functionality, interactivity, user experience, and search engine optimization (SEO) were the main goals of the third phase of website development.
+
+1. JavaScript Functionality
+        •       JavaScript functionality was added to enhance the interactivity of the website.
+        •       Product search and category tabs have been implemented.
+        •       Dynamic farm updates and a FAQ accordion have been now added.
+        •       An interactive map of Pretoria has been added.
+        •       Created a lightbox-equipped image gallery.
+        •       Button transitions and image hover animations have been added.
+        •       Enhanced validation of contact and inquiry forms.
+        •       Keywords, alt text for images and also meta descriptions are additional SEO features.
+        •       Made a sitemap and robots.txt. XML.
+        •       Enhanced website navigation and mobile responsiveness.
+        •       Tested the functionality and features of the website.
+
